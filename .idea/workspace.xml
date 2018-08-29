@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/chartjs.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/production/chartjs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/chartjs2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/echarts.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/echarts.html" afterDir="false" />
@@ -13,28 +10,10 @@
       <change beforePath="$PROJECT_DIR$/production/form_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/form_buttons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/form_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/form_upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/form_validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/form_validation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/form_wizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/form_wizards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/general_elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/glyphicons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/inbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/invoice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/level2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/media_gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/morisjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/morisjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/other_charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/page_403.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/page_404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/page_500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/plain_page.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/production/pricing_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/pricing_tables.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/tables.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/tables_dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/tables_dynamic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/typography.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/production/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/widgets.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,7 +40,7 @@
           <entry key="bowerrc" value="1" />
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="243" />
+          <entry key="html" value="259" />
           <entry key="json" value="1" />
           <entry key="md" value="3" />
           <entry key="txt" value="1" />
@@ -70,7 +49,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="243" />
+          <entry key="HTML" value="259" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
@@ -94,17 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/form_validation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="59" column="109" selection-start-line="59" selection-start-column="109" selection-end-line="59" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/form_upload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="61" column="101" selection-start-line="61" selection-start-column="101" selection-end-line="61" selection-end-column="101" />
+            <state relative-caret-position="271">
+              <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -112,17 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
+            <state relative-caret-position="598">
               <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -130,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/morisjs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
+            <state relative-caret-position="-44">
               <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
@@ -139,8 +100,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/pricing_tables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
+            <state relative-caret-position="271">
+              <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/projects.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="29" column="103" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -148,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/tables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="60" column="101" selection-start-line="60" selection-start-column="101" selection-end-line="60" selection-end-column="101" />
+            <state relative-caret-position="271">
+              <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -157,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="65" column="101" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+            <state relative-caret-position="271">
+              <caret line="35" column="103" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -166,8 +136,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/production/widgets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="60" column="101" selection-start-line="60" selection-start-column="101" selection-end-line="60" selection-end-column="101" />
+            <state relative-caret-position="17">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/form_advanced.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="40" column="103" selection-start-line="40" selection-start-column="103" selection-end-line="40" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -175,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/form_wizards.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
+            <state relative-caret-position="391">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -185,9 +164,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Gentelella Alela!</find>
       <find>netw</find>
       <find>foo</find>
+      <find>Gentelella Alela!</find>
     </findStrings>
     <replaceStrings>
       <replace>CRWA Entertainment Awards Voting Portal</replace>
@@ -224,22 +203,22 @@
         <option value="$PROJECT_DIR$/production/calendar.html" />
         <option value="$PROJECT_DIR$/production/chartjs.html" />
         <option value="$PROJECT_DIR$/production/general_elements.html" />
-        <option value="$PROJECT_DIR$/production/projects.html" />
         <option value="$PROJECT_DIR$/production/morisjs.html" />
-        <option value="$PROJECT_DIR$/production/echarts.html" />
-        <option value="$PROJECT_DIR$/production/chartjs2.html" />
-        <option value="$PROJECT_DIR$/production/contacts.html" />
-        <option value="$PROJECT_DIR$/production/form.html" />
-        <option value="$PROJECT_DIR$/production/form_advanced.html" />
-        <option value="$PROJECT_DIR$/production/form_buttons.html" />
-        <option value="$PROJECT_DIR$/production/form_upload.html" />
-        <option value="$PROJECT_DIR$/production/form_validation.html" />
         <option value="$PROJECT_DIR$/production/form_wizards.html" />
         <option value="$PROJECT_DIR$/production/index2.html" />
+        <option value="$PROJECT_DIR$/production/widgets.html" />
+        <option value="$PROJECT_DIR$/production/chartjs2.html" />
+        <option value="$PROJECT_DIR$/production/contacts.html" />
+        <option value="$PROJECT_DIR$/production/echarts.html" />
+        <option value="$PROJECT_DIR$/production/form.html" />
+        <option value="$PROJECT_DIR$/production/form_upload.html" />
+        <option value="$PROJECT_DIR$/production/form_buttons.html" />
+        <option value="$PROJECT_DIR$/production/form_advanced.html" />
+        <option value="$PROJECT_DIR$/production/form_validation.html" />
         <option value="$PROJECT_DIR$/production/pricing_tables.html" />
+        <option value="$PROJECT_DIR$/production/projects.html" />
         <option value="$PROJECT_DIR$/production/tables.html" />
         <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
-        <option value="$PROJECT_DIR$/production/widgets.html" />
       </list>
     </option>
   </component>
@@ -349,16 +328,15 @@
       <workItem from="1535452865305" duration="2412000" />
       <workItem from="1535457846723" duration="7568000" />
       <workItem from="1535537496580" duration="5502000" />
-      <workItem from="1535544889085" duration="4082000" />
+      <workItem from="1535544889085" duration="4521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19564000" />
+    <option name="totallyTimeSpent" value="20003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/general_elements.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -553,76 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/chartjs2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="57" column="101" selection-start-line="57" selection-start-column="101" selection-end-line="57" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="58" column="101" selection-start-line="58" selection-start-column="101" selection-end-line="58" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/echarts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="58" column="101" selection-start-line="58" selection-start-column="101" selection-end-line="58" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="70" column="101" selection-start-line="70" selection-start-column="101" selection-end-line="70" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_advanced.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="70" column="101" selection-start-line="70" selection-start-column="101" selection-end-line="70" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="57" column="101" selection-start-line="57" selection-start-column="101" selection-end-line="57" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="61" column="101" selection-start-line="61" selection-start-column="101" selection-end-line="61" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_validation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="59" column="109" selection-start-line="59" selection-start-column="109" selection-end-line="59" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_wizards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -630,38 +531,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/production/chartjs2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="27" column="103" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/echarts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="40" column="103" selection-start-line="40" selection-start-column="103" selection-end-line="40" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" column="103" selection-start-line="31" selection-start-column="103" selection-end-line="31" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form_buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="27" column="103" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form_advanced.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="40" column="103" selection-start-line="40" selection-start-column="103" selection-end-line="40" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form_validation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form_wizards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/production/morisjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
+        <state relative-caret-position="-44">
           <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/pricing_tables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
+        <state relative-caret-position="271">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="103" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/tables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="60" column="101" selection-start-line="60" selection-start-column="101" selection-end-line="60" selection-end-column="101" />
+        <state relative-caret-position="271">
+          <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="65" column="101" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+        <state relative-caret-position="271">
+          <caret line="35" column="103" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/widgets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="60" column="101" selection-start-line="60" selection-start-column="101" selection-end-line="60" selection-end-column="101" />
+        <state relative-caret-position="17">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
