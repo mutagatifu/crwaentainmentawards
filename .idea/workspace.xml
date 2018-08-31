@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/production/form_validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/form_validation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/tables_dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/tables_dynamic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/widgets.html" afterDir="false" />
     </list>
@@ -37,7 +35,7 @@
           <entry key="coffee" value="2" />
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="386" />
+          <entry key="html" value="388" />
           <entry key="js" value="11" />
           <entry key="json" value="4" />
           <entry key="less" value="1" />
@@ -51,7 +49,7 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="CoffeeScript" value="2" />
-          <entry key="HTML" value="386" />
+          <entry key="HTML" value="388" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="11" />
           <entry key="Less" value="1" />
@@ -62,13 +60,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2001" />
+          <entry key="html" value="2057" />
           <entry key="json" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2001" />
+          <entry key="HTML" value="2057" />
           <entry key="JSON" value="29" />
         </counts>
       </usages-collector>
@@ -76,7 +74,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/projects.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="557">
@@ -86,21 +84,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
+        <entry file="file://$PROJECT_DIR$/production/tables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
-            </state>
+            <state relative-caret-position="-4692" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/index2.html">
+        <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
+            <state relative-caret-position="813">
+              <caret line="392" column="19" selection-start-line="392" selection-start-column="19" selection-end-line="392" selection-end-column="19" />
+              <folding>
+                <element signature="e#18203#18210#1" expanded="true" />
+                <element signature="e#18709#18716#1" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/form.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -134,15 +139,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/bar.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/widgets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
+            <state relative-caret-position="697">
+              <caret line="405" column="26" selection-start-line="405" selection-start-column="26" selection-end-line="405" selection-end-column="26" />
+              <folding>
+                <element signature="e#18775#18782#1" expanded="true" />
+                <element signature="e#19281#19288#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,6 +179,7 @@
       <find>iPhone 6S Plus</find>
       <find>Musimbi</find>
       <find>CRWA Entertainment Awards Voting Portal</find>
+      <find>mo</find>
     </findStrings>
     <replaceStrings>
       <replace>CRWA Entertainment Awards Voting Portal</replace>
@@ -217,7 +222,6 @@
         <option value="$PROJECT_DIR$/production/chartjs2.html" />
         <option value="$PROJECT_DIR$/production/contacts.html" />
         <option value="$PROJECT_DIR$/production/echarts.html" />
-        <option value="$PROJECT_DIR$/production/form.html" />
         <option value="$PROJECT_DIR$/production/form_buttons.html" />
         <option value="$PROJECT_DIR$/production/form_upload.html" />
         <option value="$PROJECT_DIR$/production/form_wizards.html" />
@@ -225,11 +229,12 @@
         <option value="$PROJECT_DIR$/production/tables.html" />
         <option value="$PROJECT_DIR$/production/morisjs.html" />
         <option value="$PROJECT_DIR$/production/artist_add_new.html" />
-        <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
-        <option value="$PROJECT_DIR$/production/widgets.html" />
         <option value="$PROJECT_DIR$/production/index2.html" />
         <option value="$PROJECT_DIR$/production/form_validation.html" />
         <option value="$PROJECT_DIR$/production/projects.html" />
+        <option value="$PROJECT_DIR$/production/widgets.html" />
+        <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
+        <option value="$PROJECT_DIR$/production/form.html" />
       </list>
     </option>
   </component>
@@ -363,12 +368,12 @@
       <workItem from="1535634690319" duration="2620000" />
       <workItem from="1535644856669" duration="326000" />
       <workItem from="1535703217255" duration="14169000" />
-      <workItem from="1535720961645" duration="1866000" />
+      <workItem from="1535720961645" duration="3189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57963000" />
+    <option name="totallyTimeSpent" value="59286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -404,12 +409,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/updating.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/lib/example.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/lib/example.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -544,20 +543,6 @@
     <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/bar.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/widgets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -600,6 +585,36 @@
           <caret line="59" column="100" selection-start-line="59" selection-start-column="100" selection-end-line="59" selection-end-column="100" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/widgets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="405" column="26" selection-start-line="405" selection-start-column="26" selection-end-line="405" selection-end-column="26" />
+          <folding>
+            <element signature="e#18775#18782#1" expanded="true" />
+            <element signature="e#19281#19288#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="392" column="19" selection-start-line="392" selection-start-column="19" selection-end-line="392" selection-end-column="19" />
+          <folding>
+            <element signature="e#18203#18210#1" expanded="true" />
+            <element signature="e#18709#18716#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
