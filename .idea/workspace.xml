@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/production/artist_add_new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/tables_dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/tables_dynamic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/widgets.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,18 +25,19 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="artist_new_form" value="1" />
           <entry key="bowerrc" value="1" />
           <entry key="coffee" value="2" />
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="377" />
+          <entry key="html" value="380" />
           <entry key="js" value="11" />
           <entry key="json" value="4" />
           <entry key="less" value="1" />
@@ -47,23 +51,24 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="CoffeeScript" value="2" />
-          <entry key="HTML" value="377" />
+          <entry key="HTML" value="380" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="11" />
           <entry key="Less" value="1" />
+          <entry key="PHP" value="1" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1031" />
+          <entry key="html" value="1628" />
           <entry key="json" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1031" />
+          <entry key="HTML" value="1628" />
           <entry key="JSON" value="29" />
         </counts>
       </usages-collector>
@@ -72,31 +77,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/morisjs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5814">
-              <caret line="342" column="34" selection-start-line="342" selection-start-column="34" selection-end-line="342" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/production/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="243" column="47" selection-start-line="243" selection-start-column="47" selection-end-line="243" selection-end-column="47" />
+            <state relative-caret-position="595">
+              <caret line="230" column="31" lean-forward="true" selection-end-line="312" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/index2.html">
+        <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
+            <state relative-caret-position="796">
+              <caret line="148" column="82" selection-start-line="148" selection-start-column="82" selection-end-line="148" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/artist_add_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="189" column="90" lean-forward="true" selection-start-line="189" selection-start-column="90" selection-end-line="189" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -139,11 +141,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/production/widgets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7820">
-              <caret line="460" selection-start-line="460" selection-end-line="506" selection-end-column="28" />
+            <state relative-caret-position="1792">
+              <caret line="312" column="7" selection-start-line="312" selection-start-column="7" selection-end-line="312" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -215,11 +217,12 @@
         <option value="$PROJECT_DIR$/production/form_wizards.html" />
         <option value="$PROJECT_DIR$/production/pricing_tables.html" />
         <option value="$PROJECT_DIR$/production/tables.html" />
-        <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
-        <option value="$PROJECT_DIR$/production/widgets.html" />
         <option value="$PROJECT_DIR$/production/morisjs.html" />
         <option value="$PROJECT_DIR$/production/index2.html" />
+        <option value="$PROJECT_DIR$/production/artist_add_new.html" />
         <option value="$PROJECT_DIR$/production/projects.html" />
+        <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
+        <option value="$PROJECT_DIR$/production/widgets.html" />
       </list>
     </option>
   </component>
@@ -361,12 +364,14 @@
       <workItem from="1535618325785" duration="9531000" />
       <workItem from="1535630605110" duration="1679000" />
       <workItem from="1535633679080" duration="558000" />
-      <workItem from="1535634690319" duration="560000" />
+      <workItem from="1535634690319" duration="2620000" />
+      <workItem from="1535644856669" duration="326000" />
+      <workItem from="1535703217255" duration="6215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39542000" />
+    <option name="totallyTimeSpent" value="48143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -402,22 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/production/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="61" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/morris.js/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/no-grid.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/quarters.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/resize.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -541,9 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5814">
           <caret line="342" column="34" selection-start-line="342" selection-start-column="34" selection-end-line="342" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,6 +537,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
           <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/artist_new_form" />
+    <entry file="file://$PROJECT_DIR$/production/form_validation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="348" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -580,17 +574,31 @@
     <entry file="file://$PROJECT_DIR$/vendors/morris.js/examples/bar.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/widgets.html">
+    <entry file="file://$PROJECT_DIR$/production/artist_add_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7820">
-          <caret line="460" selection-start-line="460" selection-end-line="506" selection-end-column="28" />
+        <state relative-caret-position="619">
+          <caret line="189" column="90" lean-forward="true" selection-start-line="189" selection-start-column="90" selection-end-line="189" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="148" column="82" selection-start-line="148" selection-start-column="82" selection-end-line="148" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="243" column="47" selection-start-line="243" selection-start-column="47" selection-end-line="243" selection-end-column="47" />
+        <state relative-caret-position="595">
+          <caret line="230" column="31" lean-forward="true" selection-end-line="312" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/widgets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="312" column="7" selection-start-line="312" selection-start-column="7" selection-end-line="312" selection-end-column="7" />
         </state>
       </provider>
     </entry>
