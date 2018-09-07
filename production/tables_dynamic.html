@@ -169,49 +169,25 @@
                                 <div class="x_content">
 
                                   <form class="form-horizontal form-label-left" novalidate>
+
+                                    <h1 class="center"> Create New Vote Category</h1>
+
                                     <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Profile <span class="required">*</span>
-                                      </label>
-                                      <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="file" name="pic" accept="image/jpeg">
-                                      </div>
-                                    </div>
-                                    <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Artist Name <span class="required">*</span>
-                                      </label>
-                                      <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" id="name" name="Artist_Name" placeholder="Bruce Melody" required="required" class="form-control col-md-7 col-xs-12">
-                                      </div>
-                                    </div>
-                                    <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Name <span class="required">*</span>
-                                      </label>
-                                      <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" id="name" name="name" placeholder="Bruce " required="required" class="form-control col-md-7 col-xs-12">
-                                      </div>
-                                    </div>
-                                    <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Surname <span class="required">*</span>
-                                      </label>
-                                      <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" id="name" name="name" placeholder="Melody " required="required" class="form-control col-md-7 col-xs-12">
-                                      </div>
-                                    </div>
-                                    <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="website">Gender <span class="required">*</span>
+                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="website">Select Category <span class="required">*</span>
                                       </label>
                                       <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                           <select class="form-control">
-                                            <option value="Male"> Male </option>
-                                            <option value="Female"> Female </option>
-                                            <option value="Other"> Other </option>
+                                            <option value="music"> Music </option>
+                                            <option value="comedy"> Comedy </option>
+                                            <option value="dance"> Dance </option>
+                                            <option value="fashion"> Fashion </option>
                                           </select>
                                         </div>
                                       </div>
                                     </div>
                                     <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="occupation">Category <span class="required">*</span>
+                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="occupation">Select Sub Category <span class="required">*</span>
                                       </label>
                                       <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="form-group">
@@ -225,20 +201,7 @@
                                       </div>
                                     </div>
                                     <div class="item form-group">
-                                      <label for="password" class="control-label col-md-3">Email</label>
-                                      <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input id="password" type="password" name="password" data-validate-length="6,8" class="form-control col-md-7 col-xs-12" required="required">
-                                      </div>
-                                    </div>
-                                    <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="telephone">Telephone <span class="required">*</span>
-                                      </label>
-                                      <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="tel" id="telephone" name="phone" required="required" data-validate-length-range="8,20" class="form-control col-md-7 col-xs-12">
-                                      </div>
-                                    </div>
-                                    <div class="item form-group">
-                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Short Description <span class="required">*</span>
+                                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Artists <span class="required">*</span>
                                       </label>
                                       <div class="col-md-6 col-sm-6 col-xs-12">
                                         <textarea id="textarea" required="required" name="textarea" class="form-control col-md-7 col-xs-12"></textarea>
@@ -247,8 +210,9 @@
                                     <div class="ln_solid"></div>
                                     <div class="form-group">
                                       <div class="col-md-6 col-md-offset-3">
-                                        <button type="submit" class="btn btn-primary">Cancel</button>
-                                        <button id="send" type="submit" class="btn btn-success">Submit</button>
+                                        <ul class="nav navbar-right panel_toolbox">
+                                          <button type="submit" class="btn btn-success btn-md">Save</button>
+                                        </ul>
                                       </div>
                                     </div>
                                   </form>

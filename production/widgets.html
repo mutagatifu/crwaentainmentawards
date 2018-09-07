@@ -183,7 +183,7 @@
                                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Surname <span class="required">*</span>
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                          <input type="email" id="name" name="name" placeholder="Melody " required="required" class="form-control col-md-7 col-xs-12">
+                                          <input type="email" id="name" name="sname" placeholder="Melody " required="required" class="form-control col-md-7 col-xs-12">
                                         </div>
                                       </div>
                                       <div class="item form-group">
@@ -191,7 +191,7 @@
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                           <div class="form-group">
-                                            <select class="form-control">
+                                            <select class="form-control" name="gender">
                                               <option value="Male"> Male </option>
                                               <option value="Female"> Female </option>
                                               <option value="Other"> Other </option>
@@ -204,7 +204,7 @@
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                           <div class="form-group">
-                                            <select class="form-control">
+                                            <select class="form-control" name="category">
                                               <option value="Music"> Music </option>
                                               <option value="Comedy"> Comedy </option>
                                               <option value="Dance"> Dance </option>
@@ -230,7 +230,7 @@
                                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Short Description <span class="required">*</span>
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                          <textarea id="textarea" required="required" name="textarea" class="form-control col-md-7 col-xs-12"></textarea>
+                                          <textarea id="textarea" required="required" name="descript" class="form-control col-md-7 col-xs-12"></textarea>
                                         </div>
                                       </div>
                                       <div class="ln_solid"></div>
@@ -291,7 +291,7 @@
                       <p> 2018-12-29 </p>
                     </td>
                     <td>
-                      <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                      <a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil"></i> Edit </a>
                       <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
                     </td>
                   </tr>
