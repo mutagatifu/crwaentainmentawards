@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/production/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/form_dance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/form_upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/form_validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/form_wizards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/morisjs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/tables_dynamic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/widgets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/form_dance.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/form_dance.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,9 +55,9 @@
           <entry key="json" value="5" />
           <entry key="less" value="1" />
           <entry key="md" value="4" />
-          <entry key="php" value="33" />
+          <entry key="php" value="34" />
           <entry key="sh" value="1" />
-          <entry key="sql" value="1" />
+          <entry key="sql" value="2" />
           <entry key="txt" value="1" />
           <entry key="yml" value="1" />
         </counts>
@@ -81,9 +70,9 @@
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="11" />
           <entry key="Less" value="1" />
-          <entry key="PHP" value="20" />
+          <entry key="PHP" value="21" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="SQL" value="1" />
+          <entry key="SQL" value="2" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -106,7 +95,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
@@ -134,15 +123,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/form_upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/form_validation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -163,8 +143,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="34">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/Database/crwaentertainmentawards.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/form_dance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -268,13 +266,13 @@
         <option value="$PROJECT_DIR$/production/include/header.php" />
         <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
         <option value="$PROJECT_DIR$/production/form_wizards.php" />
-        <option value="$PROJECT_DIR$/production/form_dance.php" />
         <option value="$PROJECT_DIR$/production/form_upload.php" />
         <option value="$PROJECT_DIR$/production/form_validation.php" />
         <option value="$PROJECT_DIR$/production/tables_dynamic.php" />
         <option value="$PROJECT_DIR$/production/widgets.php" />
-        <option value="$PROJECT_DIR$/production/form.php" />
         <option value="$PROJECT_DIR$/production/index.php" />
+        <option value="$PROJECT_DIR$/production/form_dance.php" />
+        <option value="$PROJECT_DIR$/production/form.php" />
       </list>
     </option>
   </component>
@@ -352,6 +350,12 @@
             <path>
               <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
               <item name="gentelella" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gentelella" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,7 +372,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Documents/dattt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -435,12 +439,12 @@
       <workItem from="1536330536303" duration="597000" />
       <workItem from="1536336720034" duration="319000" />
       <workItem from="1536562711608" duration="4996000" />
-      <workItem from="1536582090775" duration="3799000" />
+      <workItem from="1536582090775" duration="5388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101589000" />
+    <option name="totallyTimeSpent" value="103178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -499,9 +503,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendors/morris.js/morris.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendors/morris.js/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31" />
@@ -596,13 +597,6 @@
     </entry>
     <entry file="file://D:/crwaentertainmentawards.sql" />
     <entry file="file://$PROJECT_DIR$/production/form_dance.html" />
-    <entry file="file://$PROJECT_DIR$/production/form_dance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/form_upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -633,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/dattt/test/oop_login/login.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -661,6 +648,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="171" column="38" lean-forward="true" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form_dance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/Database/crwaentertainmentawards.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
