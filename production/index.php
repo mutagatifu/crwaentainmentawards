@@ -1,4 +1,6 @@
-
+<?php
+include ('include/header.php')
+?>
         <!-- /top navigation -->
         <!-- Sub menu -->
         <div class="top_nav">
