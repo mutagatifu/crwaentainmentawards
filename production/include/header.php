@@ -51,18 +51,18 @@
         <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
           <div class="menu_section">
             <ul class="nav side-menu">
-              <li><a href="index2.html"><i class="fa fa-dashboard"></i> Dashboard <span class="fa fa-chevron-right"></span> </a> </li>
+              <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard <span class="fa fa-chevron-right"></span> </a> </li>
               <li><a><i class="fa fa-edit"></i> Categories <span class="fa fa-chevron-right"></span></a>
                 <ul class="nav child_menu">
-                  <li><a href="form.html">Music <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_dance.html">Dance <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_upload.html">Fashion <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_validation.html">Comedy <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_wizards.html">Media <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="form.php">Music <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="form_dance.php">Dance <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="form_upload.php">Fashion <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="form_validation.php">Comedy <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="form_wizards.php">Media <span class="fa fa-chevron-right"></span> </a></li>
                 </ul>
               </li>
-              <li><a href="widgets.html"><i class="fa fa-user"></i> Artists <span class="fa fa-chevron-right"></span> </a> </li>
-              <li><a href="tables_dynamic.html"><i class="fa fa-thumbs-o-up"></i> Votes <span class="fa fa-chevron-right"></span></a> </li>
+              <li><a href="widgets.php"><i class="fa fa-user"></i> Artists <span class="fa fa-chevron-right"></span> </a> </li>
+              <li><a href="tables_dynamic.php"><i class="fa fa-thumbs-o-up"></i> Votes <span class="fa fa-chevron-right"></span></a> </li>
             </ul>
           </div>
         </div>
