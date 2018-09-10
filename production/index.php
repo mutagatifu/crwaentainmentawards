@@ -166,3 +166,6 @@
         <!-- /page content -->
 
         <!-- footer content -->
+        <?php
+        include ('include/footer.php')
+        ?>

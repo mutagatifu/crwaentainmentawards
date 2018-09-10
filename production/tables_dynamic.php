@@ -1,38 +1,6 @@
-
-    <!-- top navigation -->
-    <div class="top_nav">
-      <div class="nav_menu">
-        <nav>
-          <div class="nav toggle">
-            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
-          </div>
-          <ul class="nav navbar-nav navbar-right">
-            <div class="center">
-              <h1 class="center"> CRWA Entertainment Awards Voting Portal</h1>
-            </div>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="">
-              <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                <img src="images/img.jpg" alt="">CRWA Admin
-                <span class=" fa fa-angle-down"></span>
-              </a>
-              <ul class="dropdown-menu dropdown-usermenu pull-right">
-                <li><a href="javascript:;"> Profile</a></li>
-                <li>
-                  <a href="javascript:;">
-                    <span class="badge bg-red pull-right">50%</span>
-                    <span>Settings</span>
-                  </a>
-                </li>
-                <li><a href="javascript:;">Help</a></li>
-                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+<?php
+include ('include/header.php')
+?>
     <!-- /top navigation -->
 
     <!-- page content -->
@@ -328,3 +296,6 @@
     <!-- /page content -->
 
     <!-- footer content -->
+<?php
+    include ('include/footer.php')
+?>

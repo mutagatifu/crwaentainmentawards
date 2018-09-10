@@ -1,3 +1,6 @@
+<?php
+    include ('include/header.php')
+?>
     <!-- /top navigation -->
 
     <!-- page content -->
@@ -283,3 +286,6 @@
     </div>
     <!-- /page content -->
     <!-- footer content -->
+<?php
+    include ('include/footer.php')
+?>
