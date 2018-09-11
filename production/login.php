@@ -30,19 +30,30 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form>
+            <form action="log.php" method="post">
               <h1>Login Form</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
+                <input type="text" class="form-control" name="username" placeholder="Username" required="" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">Log in</a>
+                  <button class="btn btn-default submit" name="login">login</button>
+                <!--<a class="btn btn-default submit" href="index.php">Log in</a>-->
                 <a class="reset_pass" href="#">Lost your password?</a>
               </div>
+                <?php
+                if(isset($_SESSION['message'])){
+                    ?>
+                    <div class="alert alert-info text-center">
+                        <?php echo $_SESSION['message']; ?>
+                    </div>
+                    <?php
 
+                    unset($_SESSION['message']);
+                }
+                ?>
               <div class="clearfix"></div>
 
               <div class="separator">
@@ -67,16 +78,16 @@
             <form>
               <h1>Create Account</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
+                <input type="text" class="form-control" name="username" placeholder="Username" required="" />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Email" required="" />
+                <input type="email" class="form-control"   placeholder="Email" required="" />
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">Submit</a>
+                <a class="btn btn-default submit" name="login" href="index.html">Submit</a>
               </div>
 
               <div class="clearfix"></div>

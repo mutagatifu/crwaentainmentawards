@@ -1,3 +1,17 @@
+
+<?php
+session_start();
+//return to login if not logged in
+if (!isset($_SESSION['user']) ||(trim ($_SESSION['user']) == '')){
+    header('location:login.php');
+}
+include 'include/funct.php';
+$user = new User();
+//fetch user data
+$sql = "SELECT * FROM user WHERE id = '".$_SESSION['user']."'";
+$row = $user->details($sql);
+
+?>
 <?php
 include ('include/header.php')
 ?>

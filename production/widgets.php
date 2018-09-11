@@ -86,10 +86,11 @@
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                           <div class="form-group">
                                             <select class="form-control" name="category">
-                                              <option value="Music"> Music </option>
+                                              <option value="Music" onclick="loadDoc()"> Music </option>
                                               <option value="Comedy"> Comedy </option>
                                               <option value="Dance"> Dance </option>
                                               <option value="Fashion"> Fashion </option>
+                                                
                                             </select>
                                           </div>
                                         </div>
@@ -121,6 +122,39 @@
                                           <button id="send" type="submit" class="btn btn-success">Submit</button>
                                         </div>
                                       </div>
+                                        <script>
+                                            function myFunction() {
+                                                var profile = document.getElementById("image").value;
+                                                var artistName = document.getElementById("artistName").value;
+                                                var firtstName = document.getElementById("firstName").value;
+                                                var surName = document.getElementById("surName").value;
+                                                var gender = document.getElementById("gender").value;
+                                                var categgory = document.getElementById("category").value;
+                                                var email = document.getElementById("email").value;
+                                                var phoneNumber = document.getElementById("phoneNumber").value;
+                                                var shortDescription = document.getElementById("shortDescription").value;
+
+                                                        // Returns successful data submission message when the entered information is stored in database.
+                                                var dataString = '&profile1=' + image + '&artistName1=' + artistName '&firstName1=' + firstName + '&surname1=' + surName + '&gender1=' + gender
+                                                + '&category1=' + categgory + '&email1=' + email '&phoneNumber1=' + phoneNumber + '&shortDescription1=' + shortDescription;
+                                                if (profile == '' || artistName == '' || firtstName == '' || surName == '' || gender == '' || categgory == '' || email == '' || password == '' || phoneNumber == '' ||
+                                                shortDescription == '') {
+                                                    alert("Please Fill All Fields");
+                                                } else {
+                                            // AJAX code to submit form.
+                                                    $.ajax({
+                                                        type: "POST",
+                                                        url: " ",
+                                                        data: dataString,
+                                                        cache: false,
+                                                        success: function(html) {
+                                                            alert(html);
+                                                        }
+                                                    });
+                                                }
+                                                return false;
+                                            }
+                                        </script>
                                     </form>
                                   </div>
                                 </div>
