@@ -1,6 +1,7 @@
 
 <?php
 session_start();
+include("include/connect.php");
 //return to login if not logged in
 if (!isset($_SESSION['user']) ||(trim ($_SESSION['user']) == '')){
     header('location:login.php');
@@ -10,6 +11,9 @@ $user = new User();
 //fetch user data
 $sql = "SELECT * FROM user WHERE id = '".$_SESSION['user']."'";
 $row = $user->details($sql);
+
+//@fetching categories
+$category=$conn->query("SELECT * FROM categories ORDER BY id DESC");
 
 ?>
 <?php
@@ -23,25 +27,17 @@ include ('include/header.php')
 
               <div  class="form-group">
                     <div class="col-md-4">
-                        <select class="form-control">
-                          <option value=""> --Select--</option>
-                          <option value="Music"> Music </option>
-                          <option value="Dance"> Dance </option>
-                          <option value="Comedy"> Comedy </option>
-                          <option value="Fashion"> Fashion </option>
+                        <select class="form-control cat">
+                            <?php
+                            while($row=$category->fetch_object()){
+                              echo "<option value='".urlencode(base64_encode($row->id))."'>".$row->category_name."</option>";
+                            }
+                            ?>
                         </select>
                     </div>
                     <div class="col-md-8">
-                        <select class="form-control">
-                          <option value=""> --Select-- </option>
-                          <option value="Music"> Music Artist Of The Year 2018 </option>
-                          <option value="Music"> Best Cultural Artist Of The Year 2018 </option>
-                          <option value="Music"> Best Up Coming Artist</option>
-                          <option value="Music"> Best Dj 2018 </option>
-                          <option value="Music"> Best Music Producer 2018 </option>
-                          <option value="Music"> Best East African collaboration </option>
-                          <option value="Music"> Best Gospel Artist Of The Year 2018 </option>
-                          <option value="Music"> Best Upcoming Gospel Artist </option>
+                        <select class="form-control subCat">
+                         
                         </select>
                     </div>
               </div>
