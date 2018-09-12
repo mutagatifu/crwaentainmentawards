@@ -1,5 +1,6 @@
 <?php
-include ('include/header.php')
+include ('include/header.php');
+include ("include/funct.php");
 ?>
     <!-- /top navigation -->
 
@@ -13,28 +14,28 @@ include ('include/header.php')
           <div class="col-md-12">
             <div class="x_panel">
               <div class="x_title">
-                <div class="form-group">
-                  <div class="col-md-3">
-                    <select class="form-control">
-                      <option value="Music"> Music </option>
-                      <option value="Dance"> Dance </option>
-                      <option value="Comedy"> Comedy </option>
-                      <option value="Fashion"> Fashion </option>
-                    </select>
-                  </div>
-                  <div class="col-md-5">
-                    <select class="form-control">
-                      <option value="Music"> Music Artist Of The Year 2018 </option>
-                      <option value="Music"> Best Cultural Artist Of The Year 2018 </option>
-                      <option value="Music"> Best Up Coming Artist</option>
-                      <option value="Music"> Best Dj 2018 </option>
-                      <option value="Music"> Best Music Producer 2018 </option>
-                      <option value="Music"> Best East African collaboration </option>
-                      <option value="Music"> Best Gospel Artist Of The Year 2018 </option>
-                      <option value="Music"> Best Upcoming Gospel Artist </option>
-                    </select>
-                  </div>
-                </div>
+                  <!--
+                  <div  class="form-group">
+                      
+                      //@fetching categories
+                      //$category=$conn->query("SELECT * FROM categories ORDER BY id DESC");
+
+                      ?>
+                      <div class="col-md-3">
+                          <select class="form-control cat">
+
+                              //while($row=$category->fetch_object()){
+                                 // echo "<option value='".urlencode(base64_encode($row->id))."'>".$row->category_name."</option>";
+                              }
+                              ?>
+                          </select>
+                      </div>
+                      <div class="col-md-5">
+                          <select class="form-control subCat">
+
+                          </select>
+                      </div>
+                  </div> -->
                 <ul class="nav navbar-right panel_toolbox">
                   <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Add New</button>
                   <!-- Modal -->
