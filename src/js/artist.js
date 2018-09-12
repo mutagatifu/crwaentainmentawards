@@ -22,7 +22,30 @@ $(".cat").on("change",function(){
     })
 });
 
+$('artist').on('change', function () {
+    //get change on artist category id or item
+    const  anonymous=$('.cat').val();
+    // making ajax retrieve the artist category
+    $.ajax({
+        type:'POST',
+        url: "fetchArtist.php",
+        data:'data='+anonymous,
+        dataType: 'json',
 
 
+        $("#filters").on('click', '.onArtist-filter',
+                function() {
+            $('.artistCategory').filter('.onArtist')
+           //add class to these artist categories
+
+
+        $(document)
+            
+        }
+        )
+        };
+    )
+
+})
 
 
