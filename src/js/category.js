@@ -12,10 +12,15 @@ $(".cat").on("change",function(){
 		data:"data="+anonymous,
 		dataType:"json",
 		success:function(data){
+			$(".subCat").append("<option> --Select-- </option>");
 			for(var i in data){
 				$(".subCat").append("<option value="+data[i].id+">"+data[i].subcategory_name+"</option>");
 			}
 		}
 	})
 });
+
+
+
+
 
