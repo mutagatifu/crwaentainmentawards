@@ -40,7 +40,7 @@ $('artist').on('change', function () {
 
 
         $(document)
-            
+
         }
         )
         };
