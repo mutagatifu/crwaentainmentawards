@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/artistUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/subCategoryUpdates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/artist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -90,7 +86,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2682" />
-          <entry key="js" value="2258" />
+          <entry key="js" value="2351" />
           <entry key="json" value="29" />
           <entry key="php" value="2482" />
         </counts>
@@ -99,7 +95,7 @@
         <counts>
           <entry key="HTML" value="2682" />
           <entry key="JSON" value="29" />
-          <entry key="JavaScript" value="2258" />
+          <entry key="JavaScript" value="2351" />
           <entry key="PHP" value="2480" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -154,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -468,7 +464,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148928000" />
+    <option name="totallyTimeSpent" value="149314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -775,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>

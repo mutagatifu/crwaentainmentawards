@@ -8,7 +8,8 @@ $("form").on("submit", function(e) {
         success: function(result) {
             form.remove();
             var msg = $ ("<input type="text">");
-            msg.append("")
+            msg.append("newSubCategory: " + result.newSubCategory + ". ");
+            msg.append("confirmation: ")
         }
     })
 })
