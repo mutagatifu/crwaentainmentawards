@@ -19,7 +19,7 @@ $(".cat").on("change",function(){
 
             }
         }
-    })
+    });
 });
 
 $('artist').on('change', function () {

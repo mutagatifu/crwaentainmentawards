@@ -63,8 +63,9 @@ include ('include/header.php')
                 <!-- start project list -->
                 <table class="table table-striped projects">
                   <thead>
-                  <tr>
+                  <tr id="displaycategoryInfo">
                     <th>S/N</th>
+
                     <th>MUSIC CATEGORY</th>
                     <th>N of ARTISTS</th>
                     <th style="width: 20%">Action</th>
@@ -72,19 +73,20 @@ include ('include/header.php')
                   </thead>
                   <tbody>
                   <tr>
-                    <td>
-                      <p> 1.</p>
-                    </td>
-                    <td>
-                      <p> Music Artist Of The Year 2018</p>
-                    </td>
-                    <td>
-                      <p> 20 Artists</p>
-                    </td>
-                    <td>
-                      <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
-                      <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
-                    </td>
+                      <?php
+                      $i=0;
+                      while($row=$query->fetch_object()){
+                          $i++;
+                          echo '<td> <p>'.$i.'</p></td><td><p> '.$row->subcategory_name.'</p></td><td><p>'.$row->art_number.'</p></td>  <td>
+                      <a href=\"#\" class=\"btn btn-info btn-xs\"><i class=\"fa fa-pencil\"></i> Edit </a>
+                      <a href=\"#\" class=\"btn btn-danger btn-xs\"><i class=\"fa fa-trash-o\"></i> Delete </a>
+                    </td>';
+                      }
+                      ?>
+
+
+
+
                   </tr>
                   <tr>
                     <td>

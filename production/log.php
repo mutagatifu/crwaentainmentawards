@@ -1,7 +1,9 @@
 <?php
 //start session
 session_start();
-include 'include/funct.php';
+//include 'include/funct.php';
+include 'controller/User.php';
+
 $user = new User();
 if(isset($_POST['login'])){
     $username = mysql_real_escape_string($_POST['username']);

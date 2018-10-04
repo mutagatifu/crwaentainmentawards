@@ -1,27 +1,34 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- Meta, title, CSS, favicons, etc. -->
+    <?php
+  session_start();
+  if (!isset($_SESSION['user'])){
+    header('location:login.php');
+}
+else{
+include './controller/User.php';
+$rec= new user();
+$sess=$_SESSION['user'];
+$query = $rec->details($sess);
+//print_r($row);
+while ($row = $query->fetch_array()) {
+  ?>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc.-->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title> CRWA Entertainment Awards Voting Portal  </title>
-
   <!-- Bootstrap -->
   <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <!-- NProgress -->
   <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
-
-  <!-- Custom Theme Style -->
+<!--   Custom Theme Style  -->
   <link href="../build/css/custom.min.css" rel="stylesheet">
 </head>
-
 <body class="nav-md">
 <div class="container body">
   <div class="main_container">
@@ -30,9 +37,7 @@
         <div class="navbar nav_title" style="border: 0;">
           <a href="index2.html" class="site_title"><i class="fa fa-paw"></i> <span>CRWA Entertainment Awards Voting Portal</span></a>
         </div>
-
         <div class="clearfix"></div>
-
         <!-- menu profile quick info -->
         <div class="profile clearfix">
           <div class="profile_pic">
@@ -44,9 +49,7 @@
           </div>
         </div>
         <!-- /menu profile quick info -->
-
         <br />
-
         <!-- sidebar menu -->
         <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
           <div class="menu_section">
@@ -54,11 +57,11 @@
               <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard <span class="fa fa-chevron-right"></span> </a> </li>
               <li><a><i class="fa fa-edit"></i> Categories <span class="fa fa-chevron-right"></span></a>
                 <ul class="nav child_menu">
-                  <li><a href="form.php">Music <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_dance.php">Dance <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_upload.php">Fashion <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_validation.php">Comedy <span class="fa fa-chevron-right"></span> </a></li>
-                  <li><a href="form_wizards.php">Media <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="fetchMusicians.php">Music <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="fetchDance.php">Dance <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="fetchFashion.php">Fashion <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="fetchComedians.php">Comedy <span class="fa fa-chevron-right"></span> </a></li>
+                  <li><a href="fetchMedia.php">Media <span class="fa fa-chevron-right"></span> </a></li>
                 </ul>
               </li>
               <li><a href="widgets.php"><i class="fa fa-user"></i> Artists <span class="fa fa-chevron-right"></span> </a> </li>
@@ -67,8 +70,7 @@
           </div>
         </div>
         <!-- /sidebar menu -->
-
-        <!-- /menu footer buttons -->
+        <!-- /menu footer buttons-->
         <div class="sidebar-footer hidden-small">
           <a data-toggle="tooltip" data-placement="top" title="Settings">
             <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
@@ -86,7 +88,6 @@
         <!-- /menu footer buttons -->
       </div>
     </div>
-
     <!-- top navigation -->
     <div class="top_nav">
       <div class="nav_menu">
@@ -102,7 +103,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="">
               <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                <img src="images/img.jpg" alt="">CRWA Admin
+                <img src="images/img.jpg" alt=""><?php echo $row['firstname']." ".$row['lastname'];?>
                 <span class=" fa fa-angle-down"></span>
               </a>
               <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -120,5 +121,7 @@
           </ul>
         </nav>
       </div>
-    </div>
-        <!-- /top navigation -->
+    </div> 
+    <?php
+}}
+    ?><!-- /top navigation -->

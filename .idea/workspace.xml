@@ -1,282 +1,595 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/production/tables_dynamic.php" line="18" mnemonic="1" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="">
+    <list default="true" id="1bb2616b-abee-4d16-ac74-b1815075cc8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/production/controller/DbConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/allcategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/chectest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/deletart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/fetchArtistInCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/fetchArtists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/fetchartistbyid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/fetchartsinsub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/fetchartsubcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/fetchsubcate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/queri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/recor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/controller/test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/fetchComedians.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/fetchDance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/fetchFashion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/fetchMedia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/fetchMusicians.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/displayCategoryInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/getCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Hview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gentelella.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gentelella.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Database/crwaentertainmentawards.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/fetchCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/fetchCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/include/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/include/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/include/dbconnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/include/dbconnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/include/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/log.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/tables_dynamic.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/tables_dynamic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/widgets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/artist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/.jshintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/css/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/css/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/dist/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/basics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/disabled-mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/disabled-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/hide-search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/localization-rtl-diacritics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/matcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/multiple-max.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/placeholders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/programmatic-control.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/themes-templating-responsive-design.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/examples/tokenizer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/ga.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/js-source-states.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/nav/announcements-4.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/nav/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/nav/options-old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/nav/options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/notice-previous.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options-old/adapters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options-old/backwards-compatibility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options-old/core-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options-old/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options-old/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options-old/setting-default-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/compatibility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/compatibility/initial-selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/compatibility/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/compatibility/matcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/compatibility/query-function.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/compatibility/text-input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/core.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/core/amd-support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/core/data-attributes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/core/options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/data/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/data/array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/data/select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/dropdown/filtering.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/dropdown/placement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/dropdown/selections.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/dropdown/tagging.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/events/internal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/events/jquery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/not-written.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/selections.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/selections/clearing-selections.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/selections/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/selections/placeholder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/options/selections/templating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_includes/social-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_anchorjs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_dl-panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_examples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_featurette.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_hamburger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_prettify.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_result-repository.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_sidenav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_social.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_syntax-highlighting.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/_sass/vendor/font-awesome/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/announcements-4.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/community.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/css/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/css/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/css/s2-docs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/images/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/options-old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/al.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/az.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/co.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/fl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/hi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/il.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/la.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/md.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/mi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/mn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/mo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/mt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/nc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/nd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/nh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/nj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/nm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/nv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/oh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/or.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/pa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/sc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/sd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/tn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/tx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/ut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/va.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/vt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/wa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/wi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/wv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/images/flags/wy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/js/anchor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/js/placeholders.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/docs/vendor/js/prettify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/select2.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/banner.end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/banner.start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/jquery.mousewheel.shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/jquery.select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/jquery.shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/containerCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/dropdownCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/initSelection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/inputData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/matcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/compat/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/maximumInputLength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/maximumSelectionLength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/minimumInputLength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/data/tokenizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/diacritics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/attachBody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/attachContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/closeOnSelect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/hidePlaceholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/infiniteScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/minimumResultsForSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/selectOnClose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/dropdown/stopPropagation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/results.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/allowClear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/clickMask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/eventRelay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/multiple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/single.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/selection/stopPropagation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/translation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/select2/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/wrapper.end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/js/wrapper.start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/_multiple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/classic/_defaults.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/classic/_multiple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/classic/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/classic/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/default/_multiple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/default/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/src/scss/theme/default/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/a11y/search-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/a11y/selection-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/array-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/base-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/inputData-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/maximumInputLength-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/maximumSelectionLength-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/minimumInputLength-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/select-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/tags-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/data/tokenizer-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/dropdown/dropdownCss-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/dropdown/positioning-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/dropdown/selectOnClose-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/dropdown/stopPropagation-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/integration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/integration/dom-changes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/integration/jquery-calls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/integration/select2-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/options/ajax-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/options/data-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/options/deprecated-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/options/translation-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/options/width-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/results/focusing-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/allowClear-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/containerCss-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/multiple-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/placeholder-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/search-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/single-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/selection/stopPropagation-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/unit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/utils/decorator-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/utils/escapeMarkup-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/vendor/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/vendor/qunit-1.23.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/tests/vendor/qunit-1.23.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/select2/vendor/jquery-2.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/skycons/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/skycons/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/skycons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/skycons/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/skycons/skycons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/Gruntfile.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/dist/starrr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/dist/starrr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/src/starrr.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/starrr/src/starrr.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/dist/switchery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/dist/switchery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/dist/switchery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/dist/switchery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/meteor/export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/meteor/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/switchery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/switchery/switchery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/dist/transitionize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/dist/transitionize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/examples/browserify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/examples/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/transitionize/transitionize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/fv.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/multifield.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/validator.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/validator/validator.js" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1932198583">
+    <session id="-2076129159">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="12" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="32" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="artist_new_form" value="1" />
-          <entry key="bowerrc" value="1" />
-          <entry key="coffee" value="2" />
-          <entry key="css" value="7" />
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="418" />
-          <entry key="js" value="40" />
-          <entry key="jshintrc" value="1" />
-          <entry key="json" value="5" />
-          <entry key="less" value="1" />
-          <entry key="md" value="4" />
-          <entry key="php" value="60" />
-          <entry key="scss" value="1" />
-          <entry key="sh" value="1" />
-          <entry key="sql" value="2" />
-          <entry key="txt" value="1" />
-          <entry key="yml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="7" />
-          <entry key="CoffeeScript" value="2" />
-          <entry key="HTML" value="418" />
-          <entry key="JSHint" value="1" />
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="40" />
-          <entry key="Less" value="1" />
-          <entry key="PHP" value="45" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="SCSS" value="1" />
-          <entry key="SQL" value="2" />
-          <entry key="YAML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="2682" />
-          <entry key="js" value="2351" />
-          <entry key="json" value="29" />
-          <entry key="php" value="2482" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="2682" />
-          <entry key="JSON" value="29" />
-          <entry key="JavaScript" value="2351" />
-          <entry key="PHP" value="2480" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/artist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/addArtist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/artistUpdates.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/subCategoryUpdates.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/votes.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/fashionAddNewSubCategory.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/musicAddNewSubCategory.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/allCategories.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/mediaAddNewSubCategory.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>netw</find>
-      <find>foo</find>
-      <find>Input knob</find>
-      <find>Gentelella Alela!</find>
-      <find>Date Pickers</find>
-      <find>form_advanced.html</find>
-      <find>Transaction Summary</find>
-      <find>Bar Charts</find>
-      <find>bar c</find>
-      <find>John Doe</find>
-      <find>graph_</find>
-      <find>iphone</find>
-      <find>iPhone 6S Plus</find>
-      <find>Musimbi</find>
-      <find>CRWA Entertainment Awards Voting Portal</find>
-      <find>mo</find>
-      <find>add ne</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>CRWA Entertainment Awards Voting Portal</replace>
-      <replace>form_validation.html</replace>
-      <replace>CRWA Admin</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/production/morisjs.html" />
-        <option value="$PROJECT_DIR$/production/artist_add_new.html" />
-        <option value="$PROJECT_DIR$/production/projects.html" />
-        <option value="$PROJECT_DIR$/production/form_buttons.html" />
-        <option value="$PROJECT_DIR$/production/html.html" />
-        <option value="$PROJECT_DIR$/production/widgets.html" />
-        <option value="$PROJECT_DIR$/production/form_dance.html" />
-        <option value="$PROJECT_DIR$/production/form.html" />
-        <option value="$PROJECT_DIR$/production/form_upload.html" />
-        <option value="$PROJECT_DIR$/production/form_validation.html" />
-        <option value="$PROJECT_DIR$/production/form_wizards.html" />
-        <option value="$PROJECT_DIR$/production/index2.html" />
-        <option value="$PROJECT_DIR$/production/tables_dynamic.html" />
-        <option value="$PROJECT_DIR$/production/form_wizards.php" />
-        <option value="$PROJECT_DIR$/production/form_upload.php" />
-        <option value="$PROJECT_DIR$/production/form_validation.php" />
-        <option value="$PROJECT_DIR$/production/form_dance.php" />
-        <option value="$PROJECT_DIR$/production/form.php" />
-        <option value="$PROJECT_DIR$/production/include/dbconnection.php" />
-        <option value="$PROJECT_DIR$/production/login.php" />
-        <option value="$PROJECT_DIR$/production/funct.php" />
-        <option value="$PROJECT_DIR$/production/log.php" />
-        <option value="$PROJECT_DIR$/production/logout.php" />
-        <option value="$PROJECT_DIR$/production/include/header.php" />
-        <option value="$PROJECT_DIR$/production/include/funct.php" />
-        <option value="$PROJECT_DIR$/production/include/footer.php" />
-        <option value="$PROJECT_DIR$/production/widgets.php" />
-        <option value="$PROJECT_DIR$/production/include/connect.php" />
-        <option value="$PROJECT_DIR$/production/tables_dynamic.php" />
-        <option value="$PROJECT_DIR$/src/js/custom.js" />
-        <option value="$PROJECT_DIR$/production/css/style.css" />
-        <option value="$PROJECT_DIR$/production/index.php" />
-        <option value="$PROJECT_DIR$/src/js/index.js" />
-        <option value="$PROJECT_DIR$/src/js/comedy.js" />
-        <option value="$PROJECT_DIR$/src/js/helpers/music.js" />
-        <option value="$PROJECT_DIR$/src/js/dance.js" />
-        <option value="$PROJECT_DIR$/src/js/votes.js" />
-        <option value="$PROJECT_DIR$/src/js/carousel.js" />
-        <option value="$PROJECT_DIR$/src/js/category.js" />
-        <option value="$PROJECT_DIR$/src/js/allCategories.js" />
-        <option value="$PROJECT_DIR$/src/js/addVotes.js" />
-        <option value="$PROJECT_DIR$/src/js/MusicUpdates.js" />
-        <option value="$PROJECT_DIR$/src/js/addSubcategory.js" />
-        <option value="$PROJECT_DIR$/src/js/artists.js" />
-        <option value="$PROJECT_DIR$/src/js/addArtist.js" />
-        <option value="$PROJECT_DIR$/src/js/danceAddNewSubCategory.js" />
-        <option value="$PROJECT_DIR$/src/js/fashionAddNewSubCategory.js" />
-        <option value="$PROJECT_DIR$/src/js/musicAddNewSubCategory.js" />
-        <option value="$PROJECT_DIR$/src/js/mediaAddNewSubCategory.js" />
-        <option value="$PROJECT_DIR$/src/js/artist.js" />
-        <option value="$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-      </GulpfileState>
-    </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
@@ -306,24 +619,20 @@
       <path value="$PROJECT_DIR$/vendors/jqvmap/package.json" />
       <path value="$PROJECT_DIR$/vendors/jszip/package.json" />
       <path value="$PROJECT_DIR$/vendors/morris.js/package.json" />
-      <path value="$PROJECT_DIR$/vendors/select2/package.json" />
-      <path value="$PROJECT_DIR$/vendors/starrr/package.json" />
-      <path value="$PROJECT_DIR$/vendors/switchery/package.json" />
-      <path value="$PROJECT_DIR$/vendors/transitionize/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
+    <option name="x" value="10" />
     <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,57 +640,16 @@
               <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
               <item name="gentelella" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gentelella" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gentelella" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gentelella" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gentelella" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gentelella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gentelella" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Documents/dattt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\gentelella\production" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\gentelella\src\js" />
-      <recent name="C:\xampp\htdocs\gentelella\production\include" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -395,386 +663,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.allCategories.js">
-    <configuration name="morisjs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gentelella/production/morisjs.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="allCategories.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="allCategories.js" working-dir="$PROJECT_DIR$/src/js">
-      <method v="2" />
-    </configuration>
-    <configuration name="carousel.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="carousel.js" working-dir="$PROJECT_DIR$/src/js">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.morisjs.html" />
-      <item itemvalue="Node.js.carousel.js" />
-      <item itemvalue="Node.js.allCategories.js" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.allCategories.js" />
-        <item itemvalue="Node.js.carousel.js" />
-        <item itemvalue="JavaScript Debug.morisjs.html" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d7486dd0-f5fb-40e3-81d6-eb15c0c05590" name="Default Changelist" comment="" />
-      <created>1535452864140</created>
+      <changelist id="1bb2616b-abee-4d16-ac74-b1815075cc8c" name="Default Changelist" comment="" />
+      <created>1538675411421</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535452864140</updated>
-      <workItem from="1535452865305" duration="2412000" />
-      <workItem from="1535457846723" duration="7568000" />
-      <workItem from="1535537496580" duration="5502000" />
-      <workItem from="1535544889085" duration="11244000" />
-      <workItem from="1535615813049" duration="890000" />
-      <workItem from="1535617709739" duration="248000" />
-      <workItem from="1535618325785" duration="9531000" />
-      <workItem from="1535630605110" duration="1679000" />
-      <workItem from="1535633679080" duration="558000" />
-      <workItem from="1535634690319" duration="2620000" />
-      <workItem from="1535644856669" duration="326000" />
-      <workItem from="1535703217255" duration="14169000" />
-      <workItem from="1535720961645" duration="7703000" />
-      <workItem from="1535966991032" duration="1205000" />
-      <workItem from="1535986545699" duration="1380000" />
-      <workItem from="1536047523791" duration="4468000" />
-      <workItem from="1536128771419" duration="1196000" />
-      <workItem from="1536138275272" duration="2812000" />
-      <workItem from="1536220496815" duration="3948000" />
-      <workItem from="1536301760358" duration="1163000" />
-      <workItem from="1536303721695" duration="7878000" />
-      <workItem from="1536316762187" duration="4049000" />
-      <workItem from="1536330536303" duration="597000" />
-      <workItem from="1536336720034" duration="319000" />
-      <workItem from="1536562711608" duration="4996000" />
-      <workItem from="1536582090775" duration="8680000" />
-      <workItem from="1536592298455" duration="3228000" />
-      <workItem from="1536644642277" duration="611000" />
-      <workItem from="1536646656508" duration="14618000" />
-      <workItem from="1536674675127" duration="202000" />
-      <workItem from="1536734169478" duration="3820000" />
-      <workItem from="1536746947079" duration="11696000" />
+      <updated>1538675411421</updated>
+      <workItem from="1538675414282" duration="13000" />
+      <workItem from="1538675572282" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149314000" />
+    <option name="totallyTimeSpent" value="287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17334037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.1583514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3167028" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0813449" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17334037" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.1583514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3167028" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0813449" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/crwaentertainmentawards.sql" />
-    <entry file="file://$PROJECT_DIR$/production/form_dance.html" />
-    <entry file="file://$PROJECT_DIR$/production/form_upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/tables.html" />
-    <entry file="file://$PROJECT_DIR$/production/tables_dynamic.html" />
-    <entry file="file://D:/dattt/test/oop_login/login.php" />
-    <entry file="file://$PROJECT_DIR$/production/form_wizards.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/Database/crwaentertainmentawards.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_dance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/widgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="112" column="46" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/include/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/include/dbconnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/include/funct.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/form_validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/tables_dynamic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/include/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/custom.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/css/maps/jquery-jvectormap-2.0.3.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/comedy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/fetchCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="1" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/music.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3349">
-          <caret line="197" column="19" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/dance.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/fashion.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/MusicUpdates.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/artists.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="13" selection-start-column="15" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/media.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/Chart.js/config.jshintrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/addSubcategory.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/addVotes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/danceAddNewSubCategory.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/fashionAddNewSubCategory.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/musicAddNewSubCategory.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/allCategories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/artist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/votes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/mediaAddNewSubCategory.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/addArtist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/artistUpdates.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/subCategoryUpdates.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/comedyAddNewSubCategory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

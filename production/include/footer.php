@@ -15,6 +15,11 @@
     <script src="../vendors/jquery/dist/jquery.min.js"></script>
     <!--category js!-->
     <script type="text/javascript" src="../src/js/category.js"></script>
+<!-- <script type="text/javascript" src="../src/js/pagination.js"></script> 
+  <script type="text/javascript" src="../src/js/votespagination.js"></script> --> 
+    <script type="text/javascript" src="../src/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/js/Chart.min.js"></script>
+    <!-- <script type="text/javascript" src="../src/js/app.js"></script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -26,6 +31,7 @@
     <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
     <!-- jQuery Sparklines -->
     <script src="../vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+
     <!-- Flot -->
     <script src="../vendors/Flot/jquery.flot.js"></script>
     <script src="../vendors/Flot/jquery.flot.pie.js"></script>

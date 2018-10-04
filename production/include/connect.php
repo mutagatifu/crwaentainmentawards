@@ -1,4 +1,3 @@
 <?php
-$conn=new mysqli("localhost","root","","crwaentertainmentawards");
-
+$conn=new mysqli("localhost","root","","crwaentertainmentaward");
 ?>

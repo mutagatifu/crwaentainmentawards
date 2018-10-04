@@ -9,7 +9,7 @@ $("form").on("submit", function(e) {
             form.remove();
             var msg = $ ("<input type="text">");
             msg.append("newSubCategory: " + result.newSubCategory + ". ");
-            msg.append("confirmation: ")
+            msg.append("confirmation: " + );
         }
     })
 })
