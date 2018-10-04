@@ -1,0 +1,19 @@
+
+<?php
+include 'controller/User.php';
+$rec = new User();
+
+if(isset($_POST['subcategory_id'])){
+    $subcategory_id= $_POST['subcategory_id'];
+    //$_POST["category_id"];
+    $item = array();
+    $sql = $rec->getartinsubcategory($subcategory_id);
+  foreach ($sql as $row) {
+ 	$item[]=$row;
+ }
+ echo json_encode($item);
+
+}
+ /* 
+    }*/
+?>
